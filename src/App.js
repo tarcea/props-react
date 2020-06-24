@@ -19,7 +19,7 @@ class App extends Component {
    const style1 = {color: "red"};
     const style2 = {color: "green"};
 
-   return this.state.isDisplayed ? <span style={style1}>hide</span> : <span style={style2}>show</span>;
+   return this.state.isDisplayed ? <span style={style2}>hide</span> : <span style={style1}>show</span>;
   }
 
   render() {
